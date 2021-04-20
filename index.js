@@ -11,7 +11,7 @@ const server = http.createServer(function (req, res) {
 	fetch('http://jsonplaceholder.typicode.com/posts?_start=0&_limit=10')
 	  .then(response => response.json())
 	  .then(json => {
-	  	console.log(json)
+	  	// console.log(json)
 		let stringedData = JSON.stringify(json, null, 2)
 		fs.writeFileSync(dataDirectory + '/posts.json', stringedData)	  
 	  })
