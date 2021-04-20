@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tonyfrenzy/NodeJS-FS/issues"
   },
-  "homepage": "https://github.com/tonyfrenzy/NodeJS-FS#readme"
+  "homepage": "https://github.com/tonyfrenzy/NodeJS-FS#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
 }
